@@ -19,23 +19,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGg-eg-0QM">
-                                <rect key="frame" x="110" y="256" width="155" height="155"/>
+                                <rect key="frame" x="132.5" y="278.5" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="110" id="LAv-Vs-oqj"/>
+                                    <constraint firstAttribute="width" constant="110" id="UJB-09-jov"/>
+                                </constraints>
                                 <state key="normal" image="RecordButton"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SHQ-7V-JaV"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ioB-0f-drs">
-                                <rect key="frame" x="131.5" y="425" width="111" height="20.5"/>
+                                <rect key="frame" x="131.5" y="402.5" width="111" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lpl-YQ-pDd">
-                                <rect key="frame" x="155" y="453" width="64" height="64"/>
+                                <rect key="frame" x="160" y="430.5" width="54" height="54"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="HbK-Tg-n0R"/>
-                                    <constraint firstAttribute="width" constant="64" id="dsq-oT-lDy"/>
+                                    <constraint firstAttribute="height" constant="54" id="HbK-Tg-n0R"/>
+                                    <constraint firstAttribute="width" constant="54" id="dsq-oT-lDy"/>
                                 </constraints>
                                 <state key="normal" image="Stop"/>
                                 <connections>

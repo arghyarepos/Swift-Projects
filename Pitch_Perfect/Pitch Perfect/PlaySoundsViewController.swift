@@ -10,7 +10,6 @@ import UIKit
 import AVFoundation
 
 class PlaySoundsViewController: UIViewController {
-    
 
     @IBOutlet weak var snailButton: UIButton!
     @IBOutlet weak var rabbitButton: UIButton!
@@ -48,7 +47,6 @@ class PlaySoundsViewController: UIViewController {
         
         configureUI(.playing)
 
-        
     }
     
     @IBAction func stopButtonPressed(_ sender: UIButton) {
